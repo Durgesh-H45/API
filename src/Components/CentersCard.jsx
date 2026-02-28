@@ -1,4 +1,4 @@
-function CentersCard({ id,name, place, state }) {
+function CentersCard({ id,name, Place, State }) {
     return (
         <div className="Centers-card">
             <p>ID: {id}</p>

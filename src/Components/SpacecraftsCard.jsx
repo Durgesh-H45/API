@@ -3,7 +3,7 @@ function SpacecraftsCard({ name, id }) {
         <div className="spacecraft-card">
             <p>ID: {id}</p>
             <h3>{name}</h3>
-            <p>/////////--------/////////----------/////////</p>
+            <p>-------------------------</p>
         </div>
     );
 }

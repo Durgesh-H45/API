@@ -6,7 +6,7 @@ function CustomerCard({ id, country, launch_date, mass, launcher }) {
             <p>Launch Date: {launch_date}</p>
             <p>Mass: {mass}</p>
             <p>Launcher: {launcher}</p>
-            <p>----------------------------------------</p>
+            <p>------------</p>
         </div>
     );
 }

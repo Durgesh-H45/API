@@ -21,7 +21,7 @@ useEffect(()=>{
     <div className="App">
     {data ? (
       data.map((e) => (
-        <CentersCard id={e.id} name={e.name}  place={e.place}  state={e.state} />
+        <CentersCard id={e.id} name={e.name}  place={e.Place}  state={e.State} />
       ))
     ) : (
       <p>No data</p>

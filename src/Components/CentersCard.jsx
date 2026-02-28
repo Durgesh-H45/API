@@ -3,8 +3,8 @@ function CentersCard({ id,name, place, state }) {
         <div className="Centers-card">
             <p>ID: {id}</p>
             <p>Name: {name}</p>
-            <p>Place: {place}</p>
-            <p>State: {state}</p>
+            <p>Place: {Place}</p>
+            <p>State: {State}</p>
             <p>----------------------------------</p>
 
         </div>
